@@ -13,13 +13,13 @@ The contact form contains inputs but does not have any functionality.
 
 Reference material for Canvas API:
 
-    Canvas Basics: https://www.youtube.com/watch?v=gm1QtePAYTM&t=351s
+    https://www.youtube.com/watch?v=gm1QtePAYTM&t=351s
 
-    Particles effect: https://www.youtube.com/watch?v=d620nV6bp0A
+    https://www.youtube.com/watch?v=d620nV6bp0A
 
 The code can be run using the index.html file. 
 Clone the repo to Visual Studio Code in your computer.
-Select the index.html file and Go live using VSC.
+Open the index.html file in a web browser or using VSC.
 
 Alternately, the site can be accessed using the following URL where the site has been deployed using GitHub pages:
 
