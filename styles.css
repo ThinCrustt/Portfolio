@@ -218,6 +218,70 @@ form>.button{
 #success{
     display: none;
 }
+
+/* -------------------------- */
+/* ------RESUME STYLES ------ */
+/* -------------------------- */
+#resume-content-container, #projects-content-container{
+    margin: 0 10%;
+}
+#resume-content-self{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.resume-content-self-text>*>span{
+    padding-right: 0.5em;
+    font-size: 1.1em;
+}
+.resume-content-self-text>h4{
+    font-style: italic;
+}
+.left-self{
+    display: flex;
+    flex-direction: column;
+}
+.resume-img-container>img{
+    border-radius: 50%;
+    filter: drop-shadow(4px 4px 5px gray);
+}
+.resume-skills-container, .experience-container{
+    display: grid;
+    row-gap: 1.5em;
+    column-gap: 1em;
+}
+.resume-skills-container{
+    grid-template-columns: 1fr 2fr;
+}
+.experience-container{
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.resume-skills-container, .experience-container, .grid-item-ex>p{
+    font-family: 'Space Mono', monospace;
+}
+.right-skills>div>h4{
+    font-weight: bold;
+    color: #f59042;
+}
+.right-skills>div, .left-self>div{
+    padding: 1em 1em;
+}
+.grid-item:nth-of-type(odd), .grid-item-ex:nth-child(3n+0), .grid-item-ex:nth-child(3n+1){
+    border: 1px solid gray;
+    background-color: gray;
+    border-radius: 3px;
+    padding: 0.4em 0.7em;
+    color: white;
+}
+.grid-item:nth-of-type(even), .grid-item-ex:nth-child(3n+2){
+    border: 1px solid #1e242c;
+    border-radius: 3px;
+    padding: 0.4em 0.4em;
+    background-color: #1e242c;
+    color: white;
+}
+
 /* -------------------------- */
 /* --------- FOOTER --------- */
 /* -------------------------- */
