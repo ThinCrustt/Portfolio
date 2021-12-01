@@ -23,11 +23,11 @@
             <canvas id="portfolio-canvas"></canvas>
           </div>
           <div id="header">
-              <div id="intro-text">
+              <h1 id="intro-text">
                     Hi, my name is <span class="highlight">Harmandeep Singh</span>.<br>
                     I'm a gamer, entrepreneur & tech junkie. <br>
                     I'm majoring in Computer Science @ PSU.
-              </div>
+              </h1>
               <div id="view-button" class="page-link" dest="about">
                     Know more about me
                     <span class="glyphicon glyphicon-chevron-right icon"></span>
@@ -37,7 +37,7 @@
         <!-- NAVIGATION -->
         <section id="navigation">
             <nav class="navbar nav-bar">
-                <button type="button" class="nav-bar-toggle">
+                <button type="button" class="nav-bar-toggle" aria-label="hambuger-menu">
                   <span class="bar"></span>
                   <span class="bar"></span>
                   <span class="bar"></span>
@@ -162,10 +162,10 @@
                   </ul>
                 </div>
                 <div class="project-img">
-                  <a target="_blank" href="https://github.com/coltoncandy/ML-Music-Generation-Research.git">
+                  <a target="_blank">
                     <img src="project-img/project1-1.jpg" alt="Prject-1 Screenshot-1" width="250" height="250"/></a>
 
-                  <a target="_blank" href="https://github.com/coltoncandy/ML-Music-Generation-Research.git">
+                  <a target="_blank">
                       <img src="project-img/project1-2.jpg" alt="Prject-1 Screenshot-2" width="250" height="250"/></a>  
                 </div>
                 <div class="project-link">
@@ -186,8 +186,8 @@
                   </ul>
                 </div>
                 <div class="project-img">
-                  <a target="_blank" href="https://drive.google.com/drive/folders/1ejWQIY0ImA-gJTWQi3n_otW8rFJI1-3a?usp=sharing"><img src="project-img/project2-1.png" alt="Prject-2 Screenshot-1" width="250" height="250"/></a>
-                  <a target="_blank" href="https://drive.google.com/drive/folders/1ejWQIY0ImA-gJTWQi3n_otW8rFJI1-3a?usp=sharing"><img src="project-img/project2-2.png" alt="Prject-2 Screenshot-2" width="250" height="250"/></a>
+                  <a target="_blank"><img src="project-img/project2-1.png" alt="Prject-2 Screenshot-1" width="250" height="250"/></a>
+                  <a target="_blank"><img src="project-img/project2-2.png" alt="Prject-2 Screenshot-2" width="250" height="250"/></a>
                 </div>
                 <div class="project-link">
                   <a target="_blank" class="project-link-btn" href="https://drive.google.com/drive/folders/1ejWQIY0ImA-gJTWQi3n_otW8rFJI1-3a?usp=sharing">Learn More</a>
@@ -206,8 +206,8 @@
                   </ul>
                 </div>
                 <div class="project-img">
-                  <a target="_blank" href="https://docs.google.com/presentation/d/1_89uzyga9PRlemCPwNjGJ1J0Vg8Ykl4l/edit?usp=sharing&ouid=106350712410829649965&rtpof=true&sd=true"><img src="project-img/project3-1.png" alt="Prject-3 Screenshot-1" width="250" height="250"/></a>
-                  <a target="_blank" href="https://docs.google.com/presentation/d/1_89uzyga9PRlemCPwNjGJ1J0Vg8Ykl4l/edit?usp=sharing&ouid=106350712410829649965&rtpof=true&sd=true"><img src="project-img/project3-2.png" alt="Prject-3 Screenshot-2" width="250" height="250"/></a>
+                  <a target="_blank"><img src="project-img/project3-1.png" alt="Prject-3 Screenshot-1" width="250" height="250"/></a>
+                  <a target="_blank"><img src="project-img/project3-2.png" alt="Prject-3 Screenshot-2" width="250" height="250"/></a>
                 </div>
                 <div class="project-link">
                   <a target="_blank" class="project-link-btn" href="https://docs.google.com/presentation/d/1_89uzyga9PRlemCPwNjGJ1J0Vg8Ykl4l/edit?usp=sharing&ouid=106350712410829649965&rtpof=true&sd=true">Learn More</a>
@@ -226,14 +226,9 @@
             <div id="contact-form-container" class="inner">
               <div>Whether you have a question or just want to say hi, drop me a message by filling the following details:</div>
               <form>
-                <input placeholder="Name" type="text" name="name" required="">
-                <input placeholder="Enter email" type="email" name="email" required="">
-                <textarea placeholder="Your Message" type="text" name="message"></textarea>
-                <div id="success">
-                  <div>
-                    Your message was sent successfully. Thanks!<span id="close" class="mdi mdi-close"></span>
-                  </div>
-                </div>
+                <label for="name">Name</label><input placeholder="Name" type="text" id="name" required="">
+                <label for="email">Email</label><input placeholder="Enter email" type="email" id="email" required="">
+                <label for="message">Message</label><textarea placeholder="Your Message" type="text" id="message"></textarea>
                 <input class="button" type="submit" id="submit" value="SUBMIT">
               </form>
             </div>
@@ -249,7 +244,7 @@
         <a href="https://github.com/ThinCrustt" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
       </div>
       <div id="footnote">
-        &copy; 2021 Designed And Built by <span class="highlight">Harmandeep Singh</span>
+        &copy; 2021 Designed And Built by <span class="highlight-green">Harmandeep Singh</span>
     </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

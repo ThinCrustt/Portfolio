@@ -16,6 +16,8 @@ $(window).on('resize', function(){
   }
 });
 
+
+
 //animated navigation
 $('.page-link').click(
     function(){ 
@@ -48,12 +50,13 @@ $(window).on('scroll', function() {
 
 function scrollEvt(){
   var navPos = $navSection.position().top;
-  var aboutPos = $('#about').position().top;
+  var navHeight = $navSection.height();
+  var aboutPos = $('#about').offset().top;
   var pos = $(window).scrollTop();
-  var pos2 = pos + $navSection.height();
+  var pos2 = pos + navHeight;
 
   if (!isMobile) {
-    if (pos >= navPos + $navSection.height() && lastPos < pos) {
+    if (pos >= navPos + navHeight && lastPos < pos) {
       $navSection.addClass('sticky');
     }
     if (pos < aboutPos && lastPos > pos) {
@@ -67,6 +70,11 @@ function scrollEvt(){
   }
   if (pos2 > $('#about').offset().top) {
       highlightLink('about');
+  }
+  if(!$navSection.hasClass('sticky')){
+    if (pos2 > $('#about').offset().top + navHeight) {
+      highlightLink('about');
+  }
   }
   if (pos2 > $('#resume').offset().top) {
       highlightLink('resume');
