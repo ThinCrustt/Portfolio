@@ -4,3 +4,50 @@
 main{
     font-family: 'Comfortaa', cursive;
 }
+#header{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh + 53px);
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+#intro-text{
+    color: #fff;
+    text-align: center;
+    font-size: 2.25em;
+}
+.highlight{
+    color: #f59042;
+}
+#view-button{
+    padding: 12px 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    box-sizing: inherit;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin: 16px 0 64px 0;
+    font-size: 1.8em;
+}
+#view-button:hover, .button:hover{
+    background-color: #42c993;
+    border-color: #42c993;
+    color: #fff;
+}
+#view-button:hover > .icon{
+    transform: rotate( 90deg);   
+}
+.icon{
+    font-size: 0.8em;
+}
+.icon:hover{
+    transform: rotate( 90deg);
+}
+section:nth-of-type(odd){
+    background-color: #252934;
+    color: #fff;
+}
+section:nth-of-type(even){
+    background-color: #fff;
+}
