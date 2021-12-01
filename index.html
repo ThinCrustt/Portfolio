@@ -10,205 +10,213 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
 </head>
   <body>
+    <!-- MAIN -->
     <main>
+        <!-- HOME -->
         <section id="home">
+          <!-- Canvas --> 
           <div id="canvas-container">
             <canvas id="portfolio-canvas"></canvas>
           </div>
-            <div id="header">
-                <div id="intro-text">
+          <div id="header">
+              <div id="intro-text">
                     Hi, my name is <span class="highlight">Harmandeep Singh</span>.<br>
                     I'm a gamer, entrepreneur & tech junkie. <br>
                     I'm majoring in Computer Science @ PSU.
-                </div>
-                <div id="view-button" class="page-link" dest="about">
+              </div>
+              <div id="view-button" class="page-link" dest="about">
                     Know more about me
                     <span class="glyphicon glyphicon-chevron-right icon"></span>
-                </div>
-            </div>
+              </div>
+          </div>
         </section>
+        <!-- NAVIGATION -->
         <section id="navigation">
-          <nav class="navbar nav-bar">
-              <button type="button" class="nav-bar-toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-              </button>
-              <div class="nav-bar-menu wrap">
-                <ul class="nav navbar-nav">
-                  <li class="item"><a class="link page-link" dest="home">Home</a></li>
-                  <li class="item"><a class="link page-link" dest="about">About</a></li>
-                  <li class="item"><a class="link page-link" dest="resume">Resume</a></li>
-                  <li class="item"><a class="link page-link" dest="projects">Projects</a></li>
-                  <li class="item"><a class="link page-link" dest="contact">Contact</a></li>
-                </ul>
-              </div>
-            </nav>
-      </section> 
-      <section id="about">
-        <div>
-          <h2>
-            <span class="glyphicon glyphicon-user"></span>
-            About Me</h2>
-          <div id="about-content-container" class="inner">
-            <div class="para-container">
-              <p>Hello! My name is Harmandeep Singh and I am a computer science graduate student at Portland State University.</p>
-              <p>I have completed my undergrad with experience in various programming languages and web development tools.</p>
-              <p>I am currently working with Machine Learning and Distributed Database systems.</p>
-              <p>Whenever I take a break from coding, I like to indulge in gaming, cooking and hiking. I am also involved with various E-sports and have been competing in various games professionally.</p>
-            </div>
-            <div class="img-container">
-              <img src="pic.jpg" alt="headshot" width="320" height="300"/>
-            </div>
-        </div>
-        </div>
-      </section>
-      <section id="resume">
-        <div>
-          <h2>
-            <span class="glyphicon glyphicon-lock"></span>
-            Resume
-          </h2>
-          <div id="resume-content-container">
-            <div id="resume-content-self">
-              <!-- Self -->
-              <div class="left-self">
-                <div class="resume-img-container">
-                  <img src="resume-pic.jpg" alt="Harman's Resume Picture" width="150" height="150"/>
+            <nav class="navbar nav-bar">
+                <button type="button" class="nav-bar-toggle">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                </button>
+                <div class="nav-bar-menu wrap">
+                  <ul class="nav navbar-nav">
+                    <li class="item"><a class="link page-link" dest="home">Home</a></li>
+                    <li class="item"><a class="link page-link" dest="about">About</a></li>
+                    <li class="item"><a class="link page-link" dest="resume">Resume</a></li>
+                    <li class="item"><a class="link page-link" dest="projects">Projects</a></li>
+                    <li class="item"><a class="link page-link" dest="contact">Contact</a></li>
+                  </ul>
                 </div>
-                <div class="resume-content-self-text">
-                  <h3>HARMANDEEP SINGH</h3>
-                  <h4>Master's Student</h4>
-                  <br>
-                  <p><span class="glyphicon glyphicon-map-marker"></span>Portland, Oregon</p>
-                  <p><span class="glyphicon glyphicon-envelope"></span>harman3@pdx.edu</p>
-                  <p><span class="glyphicon glyphicon-phone-alt"></span>(971)732-0295</p>
-                </div>
+              </nav>
+        </section> 
+        <!-- ABOUT -->
+        <section id="about">
+          <div>
+            <h2>
+              <span class="glyphicon glyphicon-user"></span>
+              About Me</h2>
+            <div id="about-content-container" class="inner">
+              <div class="para-container">
+                <p>Hello! My name is Harmandeep Singh and I am a computer science graduate student at Portland State University.</p>
+                <p>I have completed my undergrad with experience in various programming languages and web development tools.</p>
+                <p>I am currently working with Machine Learning and Distributed Database systems.</p>
+                <p>Whenever I take a break from coding, I like to indulge in gaming, cooking and hiking. I am also involved with various E-sports and have been competing in various games professionally.</p>
               </div>
-              <div class="right-skills">
-                <div>
-                  <!-- Skills -->
-                  <h4>Technical Skills</h4>
-                  <div class="resume-skills-container">
-                    <div class="grid-item">Programming Languages</div>
-                    <div class="grid-item">Python, Java, C, C++</div>
-                    <div class="grid-item">Databases</div>
-                    <div class="grid-item">SQL Server 2012, MySQL, SQLite, PostgreSQL</div>
-                    <div class="grid-item">Web Technologies</div>
-                    <div class="grid-item">HTML, CSS, JavaScript, Web Services</div>
-                    <div class="grid-item">Other Tools</div>
-                    <div class="grid-item">MS Office, Android Studio</div>
+              <div class="img-container">
+                <img src="pic.jpg" alt="headshot" width="320" height="300"/>
+              </div>
+          </div>
+          </div>
+        </section>
+        <!-- RESUME -->
+        <section id="resume">
+          <div>
+            <h2>
+              <span class="glyphicon glyphicon-lock"></span>
+              Resume
+            </h2>
+            <div id="resume-content-container">
+              <div id="resume-content-self">
+                <!-- Self -->
+                <div class="left-self">
+                  <div class="resume-img-container">
+                    <img src="resume-pic.jpg" alt="Harman's Resume Picture" width="150" height="150"/>
+                  </div>
+                  <div class="resume-content-self-text">
+                    <h3>HARMANDEEP SINGH</h3>
+                    <h4>Master's Student</h4>
+                    <br>
+                    <p><span class="glyphicon glyphicon-map-marker"></span>Portland, Oregon</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span>harman3@pdx.edu</p>
+                    <p><span class="glyphicon glyphicon-phone-alt"></span>(971)732-0295</p>
                   </div>
                 </div>
-                <div>
-                  <!-- Experience -->
-                  <h4>Experience</h4>
-                  <div class="experience-container">
-                    <div class="grid-item-ex">Lead Developer</div>
-                    <div class="grid-item-ex">
-                      <p>Graphic Era University, Dehradun, UK</p>
-                      <p>Virtual 8086 Microprocessor</p>
+                <div class="right-skills">
+                  <div>
+                    <!-- Skills -->
+                    <h4>Technical Skills</h4>
+                    <div class="resume-skills-container">
+                      <div class="grid-item">Programming Languages</div>
+                      <div class="grid-item">Python, Java, C, C++</div>
+                      <div class="grid-item">Databases</div>
+                      <div class="grid-item">SQL Server 2012, MySQL, SQLite, PostgreSQL</div>
+                      <div class="grid-item">Web Technologies</div>
+                      <div class="grid-item">HTML, CSS, JavaScript, Web Services</div>
+                      <div class="grid-item">Other Tools</div>
+                      <div class="grid-item">MS Office, Android Studio</div>
                     </div>
-                    <div class="grid-item-ex">06/2017-08/2017</div>
-                    <div class="grid-item-ex">Developer</div>
-                    <div class="grid-item-ex">
-                      <p>Graphic Era University, Dehradun, UK</p>
-                      <p>Twitter Sentiment Analyzer</p>
+                  </div>
+                  <div>
+                    <!-- Experience -->
+                    <h4>Experience</h4>
+                    <div class="experience-container">
+                      <div class="grid-item-ex">Lead Developer</div>
+                      <div class="grid-item-ex">
+                        <p>Graphic Era University, Dehradun, UK</p>
+                        <p>Virtual 8086 Microprocessor</p>
+                      </div>
+                      <div class="grid-item-ex">06/2017-08/2017</div>
+                      <div class="grid-item-ex">Developer</div>
+                      <div class="grid-item-ex">
+                        <p>Graphic Era University, Dehradun, UK</p>
+                        <p>Twitter Sentiment Analyzer</p>
+                      </div>
+                      <div class="grid-item-ex">11/2017-01/2018</div>
+                      <div class="grid-item-ex">Co-Founder</div>
+                      <div class="grid-item-ex">
+                        <p>RPM Gaming</p>
+                        <p>An online platform for hosting gaming tournaments & events</p>
+                      </div>
+                      <div class="grid-item-ex">11/2017-01/2018</div>
                     </div>
-                    <div class="grid-item-ex">11/2017-01/2018</div>
-                    <div class="grid-item-ex">Co-Founder</div>
-                    <div class="grid-item-ex">
-                      <p>RPM Gaming</p>
-                      <p>An online platform for hosting gaming tournaments & events</p>
-                    </div>
-                    <div class="grid-item-ex">11/2017-01/2018</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section id="projects">
-        <div>
-          <h2>
-            <span class="glyphicon glyphicon-th"></span>
-            Projects
-          </h2>
-          <div id="projects-content-container">
-            <!-- project-1 -->
-            <div class="project">
-              <div class="project-content">
-                <h3>Music generation using LSTM and GRU</h3>
-                <div class="project-description">
-                  The project involves implementation and research of two different music generation techniques in Deep Learning. The results from the two algorithms are compared based on changing various parameters of the algorithms. Finally, the trained networks are used to generate music.
+        </section>
+        <!-- PROJECTS -->
+        <section id="projects">
+          <div>
+            <h2>
+              <span class="glyphicon glyphicon-th"></span>
+              Projects
+            </h2>
+            <div id="projects-content-container">
+              <!-- project-1 -->
+              <div class="project">
+                <div class="project-content">
+                  <h3>Music generation using LSTM and GRU</h3>
+                  <div class="project-description">
+                    The project involves implementation and research of two different music generation techniques in Deep Learning. The results from the two algorithms are compared based on changing various parameters of the algorithms. Finally, the trained networks are used to generate music.
+                  </div>
+                  <ul class="project-tech-list">
+                    <li>Python</li>
+                    <li>LSTM</li>
+                    <li>GRU</li>
+                    <li>Google Collab</li>
+                  </ul>
                 </div>
-                <ul class="project-tech-list">
-                  <li>Python</li>
-                  <li>LSTM</li>
-                  <li>GRU</li>
-                  <li>Google Collab</li>
-                </ul>
-              </div>
-              <div class="project-img">
-                <a target="_blank" href="https://github.com/coltoncandy/ML-Music-Generation-Research.git">
-                  <img src="project-img/project1-1.jpg" alt="Prject-1 Screenshot-1" width="250" height="250"/></a>
+                <div class="project-img">
+                  <a target="_blank" href="https://github.com/coltoncandy/ML-Music-Generation-Research.git">
+                    <img src="project-img/project1-1.jpg" alt="Prject-1 Screenshot-1" width="250" height="250"/></a>
 
-                <a target="_blank" href="https://github.com/coltoncandy/ML-Music-Generation-Research.git">
-                    <img src="project-img/project1-2.jpg" alt="Prject-1 Screenshot-2" width="250" height="250"/></a>  
-              </div>
-              <div class="project-link">
-                <a target="_blank" class="project-link-btn" href="https://github.com/coltoncandy/ML-Music-Generation-Research.git">Learn More</a>
-              </div>
-            </div>
-            <!-- project-2 -->
-            <div class="project">
-              <div class="project-content">
-                <h3>First Person Shooter for Oculus using Unity</h3>
-                <div class="project-description">
-                  The project involves the use of Unity and C# to create a 3-D first person shooter game where the user can shoot various stationary and moving targets. The game implements all the physics constraints of the real world and can be expanded to add various elements in the future.
+                  <a target="_blank" href="https://github.com/coltoncandy/ML-Music-Generation-Research.git">
+                      <img src="project-img/project1-2.jpg" alt="Prject-1 Screenshot-2" width="250" height="250"/></a>  
                 </div>
-                <ul class="project-tech-list">
-                  <li>Unity</li>
-                  <li>C#</li>
-                  <li>Oculus</li>
-                </ul>
-              </div>
-              <div class="project-img">
-                <a target="_blank" href="https://drive.google.com/drive/folders/1ejWQIY0ImA-gJTWQi3n_otW8rFJI1-3a?usp=sharing"><img src="project-img/project2-1.png" alt="Prject-2 Screenshot-1" width="250" height="250"/></a>
-                <a target="_blank" href="https://drive.google.com/drive/folders/1ejWQIY0ImA-gJTWQi3n_otW8rFJI1-3a?usp=sharing"><img src="project-img/project2-2.png" alt="Prject-2 Screenshot-2" width="250" height="250"/></a>
-              </div>
-              <div class="project-link">
-                <a target="_blank" class="project-link-btn" href="https://drive.google.com/drive/folders/1ejWQIY0ImA-gJTWQi3n_otW8rFJI1-3a?usp=sharing">Learn More</a>
-              </div>
-            </div>
-            <!-- project-3 -->
-            <div class="project">
-              <div class="project-content">
-                <h3>Implementation and Analysis of Twitter Data Over a Distributed System</h3>
-                <div class="project-description">The project involves the cleaning and segmentation of a document type dataset from Twitter. The data is then stored over a distributed system using MongoDb in form of documents. Finally, the project analyses the stored data for various results using the query language provided by MongoDb
+                <div class="project-link">
+                  <a target="_blank" class="project-link-btn" href="https://github.com/coltoncandy/ML-Music-Generation-Research.git">Learn More</a>
                 </div>
-                <ul class="project-tech-list">
-                  <li>MongoDb</li>
-                  <li>MongoDb Compass</li>
-                  <li>Google Cloud Platform</li>
-                </ul>
               </div>
-              <div class="project-img">
-                <a target="_blank" href="https://docs.google.com/presentation/d/1_89uzyga9PRlemCPwNjGJ1J0Vg8Ykl4l/edit?usp=sharing&ouid=106350712410829649965&rtpof=true&sd=true"><img src="project-img/project3-1.png" alt="Prject-3 Screenshot-1" width="250" height="250"/></a>
-                <a target="_blank" href="https://docs.google.com/presentation/d/1_89uzyga9PRlemCPwNjGJ1J0Vg8Ykl4l/edit?usp=sharing&ouid=106350712410829649965&rtpof=true&sd=true"><img src="project-img/project3-2.png" alt="Prject-3 Screenshot-2" width="250" height="250"/></a>
+              <!-- project-2 -->
+              <div class="project">
+                <div class="project-content">
+                  <h3>First Person Shooter for Oculus using Unity</h3>
+                  <div class="project-description">
+                    The project involves the use of Unity and C# to create a 3-D first person shooter game where the user can shoot various stationary and moving targets. The game implements all the physics constraints of the real world and can be expanded to add various elements in the future.
+                  </div>
+                  <ul class="project-tech-list">
+                    <li>Unity</li>
+                    <li>C#</li>
+                    <li>Oculus</li>
+                  </ul>
+                </div>
+                <div class="project-img">
+                  <a target="_blank" href="https://drive.google.com/drive/folders/1ejWQIY0ImA-gJTWQi3n_otW8rFJI1-3a?usp=sharing"><img src="project-img/project2-1.png" alt="Prject-2 Screenshot-1" width="250" height="250"/></a>
+                  <a target="_blank" href="https://drive.google.com/drive/folders/1ejWQIY0ImA-gJTWQi3n_otW8rFJI1-3a?usp=sharing"><img src="project-img/project2-2.png" alt="Prject-2 Screenshot-2" width="250" height="250"/></a>
+                </div>
+                <div class="project-link">
+                  <a target="_blank" class="project-link-btn" href="https://drive.google.com/drive/folders/1ejWQIY0ImA-gJTWQi3n_otW8rFJI1-3a?usp=sharing">Learn More</a>
+                </div>
               </div>
-              <div class="project-link">
-                <a target="_blank" class="project-link-btn" href="https://docs.google.com/presentation/d/1_89uzyga9PRlemCPwNjGJ1J0Vg8Ykl4l/edit?usp=sharing&ouid=106350712410829649965&rtpof=true&sd=true">Learn More</a>
+              <!-- project-3 -->
+              <div class="project">
+                <div class="project-content">
+                  <h3>Implementation and Analysis of Twitter Data Over a Distributed System</h3>
+                  <div class="project-description">The project involves the cleaning and segmentation of a document type dataset from Twitter. The data is then stored over a distributed system using MongoDb in form of documents. Finally, the project analyses the stored data for various results using the query language provided by MongoDb
+                  </div>
+                  <ul class="project-tech-list">
+                    <li>MongoDb</li>
+                    <li>MongoDb Compass</li>
+                    <li>Google Cloud Platform</li>
+                  </ul>
+                </div>
+                <div class="project-img">
+                  <a target="_blank" href="https://docs.google.com/presentation/d/1_89uzyga9PRlemCPwNjGJ1J0Vg8Ykl4l/edit?usp=sharing&ouid=106350712410829649965&rtpof=true&sd=true"><img src="project-img/project3-1.png" alt="Prject-3 Screenshot-1" width="250" height="250"/></a>
+                  <a target="_blank" href="https://docs.google.com/presentation/d/1_89uzyga9PRlemCPwNjGJ1J0Vg8Ykl4l/edit?usp=sharing&ouid=106350712410829649965&rtpof=true&sd=true"><img src="project-img/project3-2.png" alt="Prject-3 Screenshot-2" width="250" height="250"/></a>
+                </div>
+                <div class="project-link">
+                  <a target="_blank" class="project-link-btn" href="https://docs.google.com/presentation/d/1_89uzyga9PRlemCPwNjGJ1J0Vg8Ykl4l/edit?usp=sharing&ouid=106350712410829649965&rtpof=true&sd=true">Learn More</a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+        <!-- CONTACT -->
         <section id="contact">  
           <div>
             <h2>
@@ -232,6 +240,7 @@
           </div>
         </section>
     </main>
+    <!-- FOOTER -->
     <footer>
       <span></span>
       <div class="social-container">
@@ -244,6 +253,7 @@
     </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script defer src="canvas-animation.js"></script>
     <script defer src="script.js"></script>
    </body>
