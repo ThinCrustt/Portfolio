@@ -7,16 +7,12 @@ var isMobile = window.innerWidth < 768;
 $(window).on('resize', function(){
   isMobile =  window.innerWidth < 768;
   scrollEvt();
-  
-  //mobile navbar
-  if(isMobile){
-    $(".nav-bar-toggle").click(function(){
-        $('.nav-bar-menu.wrap').toggleClass('visible');
-    })
-  }
 });
 
-
+//mobile navbar
+$(".nav-bar-toggle").click(function(){
+    $('.nav-bar-menu.wrap').toggleClass('visible');
+})
 
 //animated navigation
 $('.page-link').click(
