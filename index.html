@@ -25,24 +25,30 @@
                     I'm a gamer, entrepreneur & tech junkie. <br>
                     I'm majoring in Computer Science @ PSU.
                 </div>
-                <div id="view-button">
+                <div id="view-button" class="page-link" dest="about">
                     Know more about me
                     <span class="glyphicon glyphicon-chevron-right icon"></span>
                 </div>
             </div>
         </section>
         <section id="navigation">
-            <nav class="navbar nav-bar">
-                <div class="nav-bar-container">
-                  <ul class="nav navbar-nav">
-                    <li class="item"><a class="link" href="#about">About</a></li>
-                    <li class="item"><a class="link" href="#experience">Experience</a></li>
-                    <li class="item"><a class="link" href="#proejcts">Projects</a></li>
-                    <li class="item"><a class="link" href="#contact">Contact</a></li>
-                  </ul>
-                </div>
-              </nav>
-        </section> 
+          <nav class="navbar nav-bar">
+              <button type="button" class="nav-bar-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </button>
+              <div class="nav-bar-menu wrap">
+                <ul class="nav navbar-nav">
+                  <li class="item"><a class="link page-link" dest="home">Home</a></li>
+                  <li class="item"><a class="link page-link" dest="about">About</a></li>
+                  <li class="item"><a class="link page-link" dest="resume">Resume</a></li>
+                  <li class="item"><a class="link page-link" dest="projects">Projects</a></li>
+                  <li class="item"><a class="link page-link" dest="contact">Contact</a></li>
+                </ul>
+              </div>
+            </nav>
+      </section> 
         <section id="about">
           <div>
             <h2>
@@ -60,11 +66,11 @@
           </div>
           </div>
         </section>
-        <section id="experience">
+        <section id="resume">
           <div>
             <h2>
               <span class="glyphicon glyphicon-lock"></span>
-              Experience
+              Resume
             </h2>
           </div>
         </section>
