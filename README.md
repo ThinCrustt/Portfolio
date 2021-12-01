@@ -6,16 +6,20 @@ Quick Start:
 
 
 Install Visual Studio Code:
-    Visual studio code can be used to clone repositories to make changes to the code and can be used to commit, push or pull changes.
+
+Visual studio code can be used to clone repositories to make changes to the code and can be used to commit, push or pull changes.
 
 Install Git:
-    Git can be used to link to your github and perform various action involving repo cloning, etc. It also acts as a command prompt.
+
+Git can be used to link to your github and perform various action involving repo cloning, etc. It also acts as a command prompt.
 
 Clone the repo:
-    Clone the repo and start making any changes required to the files.
+
+Clone the repo and start making any changes required to the files.
 
 Run index.html:
-    Run the index.html file in a web browser or using VSC.
+
+Run the index.html file in a web browser or using VSC.
 
 
 Code Structure:
@@ -24,25 +28,32 @@ Code Structure:
 The repository contains the source code and needed media content for a website designed using HTML, CSS, bootstrap, JQuery and JavaScript.
 
 project-img:
-    It contains all the images used in the project section of the website.
+
+It contains all the images used in the project section of the website.
 
 canvas-animation.js:
-    It contains the code for implementing the particle animation on the home page using JavaScript.
+
+It contains the code for implementing the particle animation on the home page using JavaScript.
 
 index.html:
-    It contains the HTML for the website including links to CSS and js files along with all the elements in the website.
+
+It contains the HTML for the website including links to CSS and js files along with all the elements in the website.
 
 pic.jpg/resume-pic.jpg:
-    Images used in the about and resume section of the website.
+
+Images used in the about and resume section of the website.
 
 README.md:
-    Contains the description and steps to run the code as well as link to the deployed website.
+
+Contains the description and steps to run the code as well as link to the deployed website.
 
 script.js:
-    It contains JQuery for the functionality of various links, scrolling, etc.
+
+It contains JQuery for the functionality of various links, scrolling, etc.
 
 styles.css:
-    It  contains all the CSS required for the website using flexbox, grid and bootstrap.
+
+It  contains all the CSS required for the website using flexbox, grid and bootstrap.
 
 
 Web App Functionality:
@@ -51,6 +62,7 @@ Web App Functionality:
 This is a SPA(Single Page Application) built using Html, CSS, JS, Jquery and Bootstrap.
 
 The app has 5 major sections:
+
 1) Home: includes a button to directly navigate to the about section & uses canvas api to create an animated & interactive particle effect
 2) About: has a flex container wrapping text and image
 3) Resume: contains technical skills, experience and other resume details laid out using grid
