@@ -181,6 +181,94 @@ a{
     background-color: #42c993 !important;
 }
 /* -------------------------- */
+/* -----PROJECT STYLES ------ */
+/* -------------------------- */
+#projects-content-container{
+    display: flex;
+    flex-direction: column;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1em;
+    border-radius: 0.2em;
+    margin: 1em 0;
+}
+.project:hover{
+    background-color: #20232d;
+}
+.project:nth-of-type(even){
+    border: 0.2em solid #f59042;
+    -moz-box-shadow: inset 0 0 0.2em #f59042;
+    -webkit-box-shadow: inset 0 0 0.2em #f59042;
+    box-shadow: inset 0 0 0.2em #f59042;
+}
+.project:nth-of-type(odd){
+    border: 0.2em solid #42c993;
+    -moz-box-shadow: inset 0 0 0.2em #42c993;
+    -webkit-box-shadow: inset 0 0 0.2em #42c993;
+    box-shadow: inset 0 0 0.2em #42c993;
+}
+.project:nth-of-type(odd)>.project-link>a:hover{
+    background-color: #42c993;
+    border-color: #42c993;
+}
+.project:nth-of-type(even)>.project-link>a:hover{
+    background-color: #f59042;
+    border-color: #f59042;
+}
+.project-content, .project-img, .project-link{
+    margin-bottom: 3em;
+}
+.project-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.project-img>a{
+    transition: all 0.2s;
+}
+.project-img>a>img{
+    border: 0.1em solid transparent;
+    border-radius: 0.5em;
+    filter: drop-shadow(2px 4px 6px gray) grayscale(1);
+}
+.project-img>a:hover > img{
+    filter: drop-shadow(2px 4px 6px gray);
+}
+.project-img>a:hover{
+    transform: translateY(-2px);
+}
+.project-tech-list{
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    align-items: flex-end;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    list-style: none;
+    color: rgb(136, 146, 176);
+}
+.project-tech-list>li{
+    margin-right: 15px;
+}
+.project-link{
+    align-self: center;
+}
+.project-link>a{
+    color: white !important;
+}
+.project-link-btn{
+    color: white;
+    background-color: inherit;
+    border: 0.1em solid white;
+    text-align: center;
+    padding: 1em;
+    transition: all 0.4s;
+}
+/* -------------------------- */
 /* ------ FORM STYLES  ------ */
 /* -------------------------- */
 form{
