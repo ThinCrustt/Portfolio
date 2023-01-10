@@ -81,4 +81,4 @@ In mobile viewport, the navbar is always sticky and contains a hambuger button t
 
 Alternately, the site can be accessed using the following URL where the site has been deployed using GitHub pages:
 
-    https://thincrustt.github.io/WebDev-Final-Project/
+    https://thincrustt.github.io/Portfolio/
